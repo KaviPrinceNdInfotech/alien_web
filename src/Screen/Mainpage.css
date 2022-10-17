@@ -1,0 +1,102 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-bottom: 5px;
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    width: 100%;
+}
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+/* Top right text */
+.top-right {
+    position: absolute;
+    top: 0;
+    right: 1px;
+}
+
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+.bottom_div {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 80px;
+    bottom: 0;
+   
+}
+.overlay {
+    position: absolute; 
+    bottom: 0; 
+   
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    height: 80px;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  .overlayy {
+    position: absolute; 
+    bottom: 0; 
+    /* background: rgb(0, 0, 0); */
+    /* background: rgba(0, 0, 0, 0.5); */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    height: 350px;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  .container:hover .overlayy {
+    opacity: 4;
+  }
+  
+  .container:hover .overlay {
+    opacity: 4;
+  }
+
+.top_div {
+    /* border: 1px solid red; */
+    width: 100px;
+    height: 350px;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.Topbar{
+    
+    /* border:1px solid red; */
+    width: 60px;
+    right: 1px;
+    margin-top: 25px;
+    height: 280px;
+    /* justify-content: space-between; */
+}
